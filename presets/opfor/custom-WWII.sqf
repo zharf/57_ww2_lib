@@ -97,16 +97,14 @@ opfor_battlegroup_vehicles = [
 	"LIB_T34_85",												        //T-100 Varsuk
 	"LIB_SU85",												            //T-140 Angara
 	"LIB_JS2_43",												        //T-140K Angara
-	"LIB_Scout_M3",									                    //Po-30 Orca (Armed)
-	"LIB_SdKfz251_captured",									            //Po-30 Orca (Armed)
-	"LIB_T34_76",										                //Mi-290 Taru (Bench)
-	"LIB_T34_85"									                    //Mi-48 Kajman
+	"LIB_US6_Tent",									                    //Po-30 Orca (Armed)
+	"LIB_SdKfz251_captured"									            //Po-30 Orca (Armed)
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
 	"LIB_Scout_M3",													    //Ifrit (HMG)
-	"LIB_Scout_M3",													    //Ifrit (HMG)
+	"LIB_US6_Open",													    //Ifrit (HMG)
 	"LIB_US6_Open",											            //Tempest Transport
 	"LIB_T34_76",											            //MSE-3 Marid 
 	"LIB_SdKfz251_captured",										                //BTR-K Kamysh
