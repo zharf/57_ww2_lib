@@ -33,8 +33,8 @@ opfor_transport_truck = "LIB_US6_Tent";							        //Tempest Transport (Cover
 opfor_ammobox_transport = "LIB_Zis5v";						            //Tempest Transport (Open) -> Has to be able to transport resource crates!
 opfor_fuel_truck = "LIB_Zis5v_Fuel";									//Tempest Fuel
 opfor_ammo_truck = "LIB_US6_Ammo";									    //Tempest Ammo
-opfor_fuel_container = "Land_Pod_Heli_Transport_04_fuel_F";				//Taru Fuel Pod
-opfor_ammo_container = "Land_Pod_Heli_Transport_04_ammo_F";				//Taru Ammo Pod
+opfor_fuel_container = "LIB_Zis5v_Fuel";				                //Taru Fuel Pod
+opfor_ammo_container = "LIB_sov_GMC_CCKW353cf_Stud2zelAmmo";		    //Taru Ammo Pod
 opfor_flag = "LIB_FlagCarrier_SU";										//CSAT Flag
 
 /* Adding a value to these arrays below will add them to a one out of however many in the array, random pick chance.
@@ -61,8 +61,8 @@ militia_vehicles = [
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
 opfor_vehicles = [
-	"LIB_SOV_M3_Halftrack",												//Ifrit (HMG)
-	"LIB_SOV_M3_Halftrack",												//Ifrit (HMG)
+	"LIB_SdKfz251_captured",												//Ifrit (HMG)
+	"LIB_SdKfz251_captured",												//Ifrit (HMG)
 	"LIB_Scout_M3",													    //Ifrit (GMG)
 	"LIB_Zis5v_61K",											        //Soviet AA 
 	"LIB_Zis5v_61K",											        //Soviet AA
@@ -76,7 +76,7 @@ opfor_vehicles = [
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
 	"LIB_Scout_M3",													    //Ifrit (HMG)
-	"LIB_SOV_M3_Halftrack",											    //Ifrit (HMG)
+	"LIB_SdKfz251_captured",											    //Ifrit (HMG)
 	"LIB_Zis5v_61K",													//AA Truck
 	"LIB_T34_76"											            //MSE-3 Marid 
 	
@@ -87,18 +87,18 @@ opfor_battlegroup_vehicles = [
 	"LIB_Scout_M3",													    //Ifrit (HMG)
 	"LIB_Scout_M3",													    //Ifrit (GMG)
 	"LIB_Zis5v_61K",													//Ifrit (GMG)
-	"LIB_SOV_M3_Halftrack",											    //Qilin (AT)
+	"LIB_SdKfz251_captured",											    //Qilin (AT)
 	"LIB_US6_Open",											            //Tempest Transport
 	"LIB_US6_Tent",												        //Tempest Transport (Covered)
 	"LIB_Zis5v_61K",											        //ZSU-39 Tigris
-	"LIB_SOV_M3_Halftrack",											    //ZSU-39 Tigris
+	"LIB_SdKfz251_captured",											    //ZSU-39 Tigris
 	"LIB_T34_76",                                                       //Extra Tank (older t34)
 	"LIB_T34_85",												        //T-100 Varsuk
 	"LIB_T34_85",												        //T-100 Varsuk
 	"LIB_SU85",												            //T-140 Angara
 	"LIB_JS2_43",												        //T-140K Angara
 	"LIB_Scout_M3",									                    //Po-30 Orca (Armed)
-	"LIB_SOV_M3_Halftrack",									            //Po-30 Orca (Armed)
+	"LIB_SdKfz251_captured",									            //Po-30 Orca (Armed)
 	"LIB_T34_76",										                //Mi-290 Taru (Bench)
 	"LIB_T34_85"									                    //Mi-48 Kajman
 ];
@@ -109,7 +109,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"LIB_Scout_M3",													    //Ifrit (HMG)
 	"LIB_US6_Open",											            //Tempest Transport
 	"LIB_T34_76",											            //MSE-3 Marid 
-	"LIB_SOV_M3_Halftrack",										        //BTR-K Kamysh
+	"LIB_SdKfz251_captured",										                //BTR-K Kamysh
 	"LIB_Zis5v_61K",											        //ZSU-39 Tigris
 	"LIB_T34_85"									                    //Mi-48 Kajman
 ];
@@ -119,7 +119,7 @@ If something in this array can't hold all 8 soldiers then buggy behaviours may o
 opfor_troup_transports = [
 	"LIB_US6_Open",											           //Tempest Transport
 	"LIB_US6_Tent",												       //Tempest Transport (Covered)
-	"LIB_SOV_M3_Halftrack"										       //MSE-3 Marid 
+	"LIB_SdKfz251_captured"										       //MSE-3 Marid 
 ];
 
 // Enemy rotary-wings that will need to spawn in flight.
