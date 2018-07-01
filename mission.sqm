@@ -8,7 +8,7 @@ class EditorData
 	toggles=65;
 	class ItemIDProvider
 	{
-		nextID=470;
+		nextID=489;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5953.0962,82.170189,3266.4004};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={2323.0215,401.92743,1190.8744};
+		dir[]={0.42694607,-0.49096718,0.75944012};
+		up[]={0.24061188,0.87115753,0.42799386};
+		aside[]={0.87173361,6.0501043e-007,-0.49007767};
 	};
 };
 binarizationWanted=0;
@@ -16153,7 +16153,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=319;
+		items=320;
 		class Item0
 		{
 			dataType="Marker";
@@ -21628,6 +21628,23 @@ class Mission
 			colorName="ColorEAST";
 			id=469;
 			atlOffset=-8.6704674;
+		};
+		class Item319
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20.136999,47.915356,3.2090001};
+				angles[]={0.034993853,0,6.1934228};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="liberation_arsenal";
+			};
+			id=488;
+			type="Land_ClutterCutter_small_F";
 		};
 	};
 	class Connections

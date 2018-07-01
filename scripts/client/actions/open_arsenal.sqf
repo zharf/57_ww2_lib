@@ -5,7 +5,7 @@ load_from_player = -1;
 exit_on_load = 0;
 createDialog "liberation_arsenal";
 
-private _saved_loadouts = profileNamespace getVariable "bis_fnc_saveInventory_data";
+private _saved_loadouts = profileNamespace getVariable "ace_arsenal_saved_loadouts";
 private _loadouts_data = [];
 private _counter = 0;
 private _backpack = backpack player;
@@ -106,11 +106,5 @@ while { dialog && (alive player) && edit_loadout == 0 } do {
 if ( edit_loadout > 0 ) then {
 	closeDialog 0;
 	waitUntil { !dialog };
-	[ "Open", false ] spawn BIS_fnc_arsenal;
-	
-	if (KP_liberation_arsenalUsePreset) then {
-		uiSleep 5;
-		waitUntil {sleep 1; isNull (uinamespace getvariable "RSCDisplayArsenal")};
-		[_backpack] call F_checkGear;
-	};
+	[liberation_arsenal, player, false] call ace_arsenal_fnc_openBox;
 };
