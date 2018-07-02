@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8722.4131,256.68399,13190.495};
-		dir[]={-0.12281197,-0.63285834,-0.76447541};
-		up[]={-0.10038151,0.77426577,-0.62484545};
-		aside[]={-0.98734617,5.7078432e-007,0.15861723};
+		pos[]={9145.8779,491.89664,11542.006};
+		dir[]={0.64890575,-0.72058332,0.24470812};
+		up[]={0.67420876,0.69339061,0.2542477};
+		aside[]={0.35288501,3.0398369e-006,-0.93577915};
 	};
 };
 binarizationWanted=0;
@@ -19970,13 +19970,13 @@ class Mission
 		class Item139
 		{
 			dataType="Marker";
-			position[]={4139.6655,38.753368,3244.1494};
+			position[]={4139.666,38.752998,3244.1489};
 			name="military_5";
-			text="military";
+			text="Niecieslawice Airfield";
 			type="o_support";
 			colorName="ColorEAST";
 			id=280;
-			atlOffset=-5.267334;
+			atlOffset=-5.2676811;
 		};
 		class Item140
 		{
@@ -19992,13 +19992,13 @@ class Mission
 		class Item141
 		{
 			dataType="Marker";
-			position[]={7850.624,22.022949,3520.8975};
+			position[]={7850.624,22.023001,3520.897};
 			name="military_7";
-			text="military";
+			text="Nizny Base";
 			type="o_support";
 			colorName="ColorEAST";
 			id=282;
-			atlOffset=-4.9593697;
+			atlOffset=-4.9593182;
 		};
 		class Item142
 		{
@@ -20036,13 +20036,13 @@ class Mission
 		class Item145
 		{
 			dataType="Marker";
-			position[]={5741.8228,91.031006,11336.138};
+			position[]={5741.8232,91.030998,11336.138};
 			name="military_9";
-			text="military";
+			text="Mokre Base";
 			type="o_support";
 			colorName="ColorEAST";
 			id=286;
-			atlOffset=-4.1981964;
+			atlOffset=-4.1981659;
 		};
 		class Item146
 		{
@@ -20124,13 +20124,13 @@ class Mission
 		class Item153
 		{
 			dataType="Marker";
-			position[]={15642.641,18.992937,4188.0815};
+			position[]={15642.64,18.993,4188.082};
 			name="military_17";
-			text="military";
+			text="Tuklecz Base";
 			type="o_support";
 			colorName="ColorEAST";
 			id=294;
-			atlOffset=-5.2848415;
+			atlOffset=-5.2847443;
 		};
 		class Item154
 		{
@@ -20157,13 +20157,13 @@ class Mission
 		class Item156
 		{
 			dataType="Marker";
-			position[]={4831.3218,21.83242,813.72363};
+			position[]={4831.3218,21.832001,813.724};
 			name="military_19";
-			text="military";
+			text="Jaroslawice Base";
 			type="o_support";
 			colorName="ColorEAST";
 			id=297;
-			atlOffset=-5.5872574;
+			atlOffset=-5.5876904;
 		};
 		class Item157
 		{
