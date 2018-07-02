@@ -7,6 +7,7 @@ switch (KP_liberation_preset_blufor) do {
 	case 6: {[] call compileFinal preprocessFileLineNumbers "presets\blufor\rhs_usaf_wdl.sqf";};
 	case 7: {[] call compileFinal preprocessFileLineNumbers "presets\blufor\rhs_usaf_des.sqf";};
 	case 8: {[] call compileFinal preprocessFileLineNumbers "presets\blufor\rhs_afrf.sqf";};
+	case 9: {[] call compileFinal preprocessFileLineNumbers "presets\blufor\WWII.sqf";};
 	default {[] call compileFinal preprocessFileLineNumbers "presets\blufor\custom.sqf";};
 };
 
@@ -16,6 +17,7 @@ switch (KP_liberation_preset_opfor) do {
 	case 3: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\takistan.sqf";};
 	case 4: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\islamic_state.sqf";};
 	case 5: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\SLA.sqf";};
+	case 6: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\WWII.sqf";};
 	default {[] call compileFinal preprocessFileLineNumbers "presets\opfor\custom.sqf";};
 };
 
@@ -24,6 +26,7 @@ switch (KP_liberation_preset_resistance) do {
 	case 2: {[] call compileFinal preprocessFileLineNumbers "presets\resistance\rhs_gref.sqf";};
 	case 3: {[] call compileFinal preprocessFileLineNumbers "presets\resistance\middle_eastern.sqf";};
 	case 4: {[] call compileFinal preprocessFileLineNumbers "presets\resistance\RACS.sqf";};
+	case 5: {[] call compileFinal preprocessFileLineNumbers "presets\resistance\WWII.sqf";};
 	default {[] call compileFinal preprocessFileLineNumbers "presets\resistance\custom.sqf";};
 };
 
@@ -31,6 +34,7 @@ switch (KP_liberation_preset_civilians) do {
 	case 1: {[] call compileFinal preprocessFileLineNumbers "presets\civilians\apex.sqf";};
 	case 2: {[] call compileFinal preprocessFileLineNumbers "presets\civilians\middle_eastern.sqf";};
 	case 3: {[] call compileFinal preprocessFileLineNumbers "presets\civilians\RDSCiv.sqf";};
+	case 4: {[] call compileFinal preprocessFileLineNumbers "presets\civilians\WWII.sqf";};
 	default {[] call compileFinal preprocessFileLineNumbers "presets\civilians\custom.sqf";};
 };
 

@@ -40,8 +40,9 @@ If you want to change a preset, it's recommended to set all four presets to 0 an
 5 = BWMod Bundeswehr (Tropentarn)
 6 = RHS USAF (Woodland)
 7 = RHS USAF (Desert)
-8 = RHS AFRF (VDV/MSV) */
-KP_liberation_preset_blufor = 0;
+8 = RHS AFRF (VDV/MSV)
+9 = WWII Germany */
+KP_liberation_preset_blufor = 9;
 
 /* OPFOR preset:
 0 = Custom (default vanilla CSAT)
@@ -49,23 +50,26 @@ KP_liberation_preset_blufor = 0;
 2 = RHS AFRF (EMR/MSV)
 3 = Project OPFOR (Takistan)
 4 = Project OPFOR (Islamic State)
-5 = Project OPFOR (Sahrani) */
-KP_liberation_preset_opfor = 0;
+5 = Project OPFOR (Sahrani)
+6 = WWII Soviet */
+KP_liberation_preset_opfor = 6;
 
 /* Resistance preset:
 0 = Custom (default vanilla FIA)
 1 = Apex Tanoa (apex vanilla Syndikat)
 2 = RHS GREF
 3 = Project OPFOR (Middle Eastern)
-4 = Project OPFOR (Sahrani) */
-KP_liberation_preset_resistance = 0;
+4 = Project OPFOR (Sahrani)
+5 = WWII Polish */
+KP_liberation_preset_resistance = 5;
 
 /* Civilians preset:
 0 = Custom (default vanilla)
 1 = Apex Tanoa (apex vanilla)
 2 = Project OPFOR (Middle Eastern)
-3 = RDS Civilians */
-KP_liberation_preset_civilians = 0;
+3 = RDS Civilians
+4 = WWII Polish */
+KP_liberation_preset_civilians = 4;
 
 /* Which arsenal preset should be used?
 0 = Use the default blacklist method (defined below).
@@ -74,8 +78,9 @@ KP_liberation_preset_civilians = 0;
 3 = RHS USAF arsenal preset.
 4 = RHS USAF arsenal preset with ACE.
 5 = RHS USAF arsenal preset with ACE and ACRE.	
-6 = 3cbBAF and RHS USAF arsenal preset. */
-KP_liberation_arsenal = 0;
+6 = 3cbBAF and RHS USAF arsenal preset.
+7 = WWII Germany */
+KP_liberation_arsenal = 7;
 
 /* - Fuel consumption settings.
 Time in minutes till a full tank depletes whilst the vehicle is standing still with a running engine.	*/
