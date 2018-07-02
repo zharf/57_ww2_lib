@@ -132,7 +132,7 @@ static_vehicles = [
 	["LIB_FlaK_36_AA",200,300,0],
 	["LIB_FlaK_36",200,300,0],
 	["LIB_Nebelwerfer41_Camo",100,400,0]
-	
+];
 
 buildings = [
 	["geist_Flag_WHT_F",0,0,0],

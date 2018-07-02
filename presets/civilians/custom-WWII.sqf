@@ -31,5 +31,5 @@ civilian_vehicles = [
 	"LIB_GazM1",
 	"LIB_FRA_CitC4Ferme",
 	"LIB_FRA_CitC4",
-	fow_v_truppenfahrrad_ger_heer
+	"fow_v_truppenfahrrad_ger_heer"
 ];
