@@ -2,7 +2,7 @@ _troup_transport = _this select 0;
 _transport_group = (group (driver _troup_transport));
 _start_pos = getpos _troup_transport;
 _dat_objective =  ([getpos _troup_transport] call F_getNearestBluforObjective) select 0;
-_unload_distance = 1000;
+_unload_distance = 500;
 sleep 1;
 _initial_crewcount = count crew _troup_transport;
 
