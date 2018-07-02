@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={12885.65,64.033157,5747.9258};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={8722.4131,256.68399,13190.495};
+		dir[]={-0.12281197,-0.63285834,-0.76447541};
+		up[]={-0.10038151,0.77426577,-0.62484545};
+		aside[]={-0.98734617,5.7078432e-007,0.15861723};
 	};
 };
 binarizationWanted=0;
@@ -18545,13 +18545,13 @@ class Mission
 		class Item21
 		{
 			dataType="Marker";
-			position[]={4063.0112,53.722412,8105.0332};
+			position[]={4063.011,53.722,8105.0332};
 			name="military";
-			text="military";
+			text="Gacki Airfield";
 			type="o_support";
 			colorName="ColorEAST";
 			id=55;
-			atlOffset=-5.2975883;
+			atlOffset=-5.2980003;
 		};
 		class Item22
 		{
@@ -19926,45 +19926,46 @@ class Mission
 		class Item135
 		{
 			dataType="Marker";
-			position[]={1858.6396,94.713455,11508.153};
+			position[]={1858.64,94.712997,11508.153};
 			name="military_1";
-			text="military";
+			text="Szydlow Base";
 			type="o_support";
 			colorName="ColorEAST";
 			id=276;
+			atlOffset=-0.00045776367;
 		};
 		class Item136
 		{
 			dataType="Marker";
-			position[]={5278.084,73.677734,14670.849};
+			position[]={5278.084,73.678001,14670.849};
 			name="military_2";
-			text="military";
+			text="Korytnica Base";
 			type="o_support";
 			colorName="ColorEAST";
 			id=277;
-			atlOffset=-4.9513626;
+			atlOffset=-4.9510956;
 		};
 		class Item137
 		{
 			dataType="Marker";
-			position[]={8729.249,14.122913,13019.973};
+			position[]={8729.249,14.123,13019.973};
 			name="military_3";
-			text="military";
+			text="Kotuszow Base";
 			type="o_support";
 			colorName="ColorEAST";
 			id=278;
-			atlOffset=-5.3013363;
+			atlOffset=-5.3012495;
 		};
 		class Item138
 		{
 			dataType="Marker";
-			position[]={14448.363,41.883339,12908.878};
+			position[]={14448.363,41.882999,12908.878};
 			name="military_4";
-			text="military";
+			text="Kopanina Airfield";
 			type="o_support";
 			colorName="ColorEAST";
 			id=279;
-			atlOffset=-5.268837;
+			atlOffset=-5.2691765;
 		};
 		class Item139
 		{
@@ -19980,13 +19981,13 @@ class Mission
 		class Item140
 		{
 			dataType="Marker";
-			position[]={13628.221,22.801973,7381.1411};
+			position[]={13628.22,22.802,7381.1411};
 			name="military_6";
-			text="military";
+			text="Staszow Airfield";
 			type="o_support";
 			colorName="ColorEAST";
 			id=281;
-			atlOffset=-5.2644634;
+			atlOffset=-5.2644138;
 		};
 		class Item141
 		{
@@ -20002,13 +20003,13 @@ class Mission
 		class Item142
 		{
 			dataType="Marker";
-			position[]={10118.924,48.329399,6224.4756};
+			position[]={10118.924,48.328999,6224.4761};
 			name="military_8";
-			text="military";
+			text="Grzybow Base East";
 			type="o_support";
 			colorName="ColorEAST";
 			id=283;
-			atlOffset=-5.3254662;
+			atlOffset=-5.3258705;
 		};
 		class Item143
 		{
@@ -20046,78 +20047,79 @@ class Mission
 		class Item146
 		{
 			dataType="Marker";
-			position[]={1737.265,57.930664,5528.0361};
+			position[]={1737.265,57.931,5528.0361};
 			name="military_10";
-			text="military";
+			text="Podlesie Base";
 			type="o_support";
 			colorName="ColorEAST";
 			id=287;
-			atlOffset=-5.4881325;
+			atlOffset=-5.4877968;
 		};
 		class Item147
 		{
 			dataType="Marker";
-			position[]={11457.855,62.918087,11429.175};
+			position[]={11457.855,62.917999,11429.175};
 			name="military_11";
-			text="military";
+			text="Wolka Zabna Base";
 			type="o_support";
 			colorName="ColorEAST";
 			id=288;
-			atlOffset=-5.3284035;
+			atlOffset=-5.3284912;
 		};
 		class Item148
 		{
 			dataType="Marker";
-			position[]={10996.312,69.311264,15271.896};
+			position[]={10996.312,69.310997,15271.896};
 			name="military_12";
-			text="military";
+			text="Wolka Osowa Base";
 			type="o_support";
 			colorName="ColorEAST";
 			id=289;
-			atlOffset=-5.2571945;
+			atlOffset=-5.2574615;
 		};
 		class Item149
 		{
 			dataType="Marker";
-			position[]={7742.6553,81.720261,8737.2939};
+			position[]={7742.6548,81.720001,8737.2939};
 			name="military_13";
-			text="military";
+			text="Ponik Military";
 			type="o_support";
 			colorName="ColorEAST";
 			id=290;
+			atlOffset=-0.00026702881;
 		};
 		class Item150
 		{
 			dataType="Marker";
-			position[]={11265.979,8.5756302,1574.0509};
+			position[]={11265.979,8.5760002,1574.051};
 			name="military_14";
-			text="military";
+			text="Pacanowka Base";
 			type="o_support";
 			colorName="ColorEAST";
 			id=291;
-			atlOffset=-5.259841;
+			atlOffset=-5.2594805;
 		};
 		class Item151
 		{
 			dataType="Marker";
-			position[]={7398.2798,57.928982,5508.5};
+			position[]={7398.2798,57.929001,5508.5};
 			name="military_15";
-			text="military";
+			text="Grzybow Base West";
 			type="o_support";
 			colorName="ColorEAST";
 			id=292;
-			atlOffset=-5.3204689;
+			atlOffset=-5.3204498;
 		};
 		class Item152
 		{
 			dataType="Marker";
-			position[]={14763.922,31.177044,11111.407};
+			position[]={14763.922,31.177,11111.407};
 			name="military_16";
-			text="military";
+			text="Staszow Base";
 			type="o_support";
 			colorName="ColorEAST";
 			id=293;
-			atlOffset=-5.2904701;
+			atlOffset=-5.290514;
 		};
 		class Item153
 		{
@@ -20144,13 +20146,13 @@ class Mission
 		class Item155
 		{
 			dataType="Marker";
-			position[]={9019.0264,58.589775,11294.206};
+			position[]={9019.0264,58.59,11294.206};
 			name="military_18";
-			text="military";
+			text="Kurozweki Base";
 			type="o_support";
 			colorName="ColorEAST";
 			id=296;
-			atlOffset=-5.2767181;
+			atlOffset=-5.2764931;
 		};
 		class Item156
 		{
