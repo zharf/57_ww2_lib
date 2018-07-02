@@ -61,8 +61,8 @@ militia_vehicles = [
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
 opfor_vehicles = [
-	"LIB_SdKfz251_captured",												//Ifrit (HMG)
-	"LIB_SdKfz251_captured",												//Ifrit (HMG)
+	"LIB_SdKfz251_captured",											//Ifrit (HMG)
+	"LIB_SdKfz251_captured",											//Ifrit (HMG)
 	"LIB_Scout_M3",													    //Ifrit (GMG)
 	"LIB_Zis5v_61K",											        //Soviet AA 
 	"LIB_Zis5v_61K",											        //Soviet AA
@@ -76,7 +76,7 @@ opfor_vehicles = [
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
 	"LIB_Scout_M3",													    //Ifrit (HMG)
-	"LIB_SdKfz251_captured",											    //Ifrit (HMG)
+	"LIB_SdKfz251_captured",											//Ifrit (HMG)
 	"LIB_Zis5v_61K",													//AA Truck
 	"LIB_T34_76"											            //MSE-3 Marid 
 	
@@ -87,11 +87,11 @@ opfor_battlegroup_vehicles = [
 	"LIB_Scout_M3",													    //Ifrit (HMG)
 	"LIB_Scout_M3",													    //Ifrit (GMG)
 	"LIB_Zis5v_61K",													//Ifrit (GMG)
-	"LIB_SdKfz251_captured",											    //Qilin (AT)
+	"LIB_SdKfz251_captured",											//Qilin (AT)
 	"LIB_US6_Open",											            //Tempest Transport
 	"LIB_US6_Tent",												        //Tempest Transport (Covered)
 	"LIB_Zis5v_61K",											        //ZSU-39 Tigris
-	"LIB_SdKfz251_captured",											    //ZSU-39 Tigris
+	"LIB_SdKfz251_captured",											//ZSU-39 Tigris
 	"LIB_T34_76",                                                       //Extra Tank (older t34)
 	"LIB_T34_85",												        //T-100 Varsuk
 	"LIB_T34_85",												        //T-100 Varsuk
@@ -107,7 +107,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"LIB_US6_Open",													    //Ifrit (HMG)
 	"LIB_US6_Open",											            //Tempest Transport
 	"LIB_T34_76",											            //MSE-3 Marid 
-	"LIB_SdKfz251_captured",										                //BTR-K Kamysh
+	"LIB_SdKfz251_captured",										    //BTR-K Kamysh
 	"LIB_Zis5v_61K",											        //ZSU-39 Tigris
 	"LIB_T34_85"									                    //Mi-48 Kajman
 ];
