@@ -8,7 +8,7 @@ class EditorData
 	toggles=65;
 	class ItemIDProvider
 	{
-		nextID=490;
+		nextID=492;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={351.88885,151.30048,226.86311};
-		dir[]={0.95512331,-0.26365995,-0.1358773};
-		up[]={0.26098219,0.96460372,-0.037126053};
-		aside[]={-0.14085294,5.2787072e-008,-0.9901377};
+		pos[]={15731.445,78.917282,1643.2217};
+		dir[]={0,-0.70710677,0.70710683};
+		up[]={0,0.70710677,0.70710671};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -16153,7 +16153,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=320;
+		items=322;
 		class Item0
 		{
 			dataType="Marker";
@@ -18651,8 +18651,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={15832.977,56.130615,1687.6982};
-				angles[]={0.039979152,0,0.0087551167};
+				position[]={15824.901,56.053154,1687.6465};
+				angles[]={0.039979152,0,0.010000871};
 			};
 			side="Empty";
 			flags=4;
@@ -21645,6 +21645,56 @@ class Mission
 			};
 			id=488;
 			type="Land_ClutterCutter_small_F";
+		};
+		class Item320
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15843.248,56.214832,1687.5352};
+				angles[]={0.039977662,0,0.0050033992};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="huronspawn";
+			};
+			id=490;
+			type="Land_ClutterCutter_small_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item321
+		{
+			dataType="Marker";
+			position[]={15843.246,51.197266,1687.5293};
+			name="huronmarker";
+			text="Spartan 01";
+			type="b_air";
+			id=491;
+			atlOffset=-5.0177956;
 		};
 	};
 	class Connections
