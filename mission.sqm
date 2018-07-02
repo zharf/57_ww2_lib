@@ -8,7 +8,7 @@ class EditorData
 	toggles=65;
 	class ItemIDProvider
 	{
-		nextID=489;
+		nextID=490;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2323.0215,401.92743,1190.8744};
-		dir[]={0.42694607,-0.49096718,0.75944012};
-		up[]={0.24061188,0.87115753,0.42799386};
-		aside[]={0.87173361,6.0501043e-007,-0.49007767};
+		pos[]={351.88885,151.30048,226.86311};
+		dir[]={0.95512331,-0.26365995,-0.1358773};
+		up[]={0.26098219,0.96460372,-0.037126053};
+		aside[]={-0.14085294,5.2787072e-008,-0.9901377};
 	};
 };
 binarizationWanted=0;
@@ -16216,8 +16216,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={-51.084,48.092129,23.233999};
-				angles[]={0.054942966,0,0};
+				position[]={-4.1703024,48.468987,16.382088};
+				angles[]={0.054944519,0,0};
 			};
 			name="zm1";
 			id=4;
@@ -16327,8 +16327,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={-54.971115,48.034981,24.343262};
-				angles[]={0.043721698,0,0};
+				position[]={-8.0574179,48.407978,17.49135};
+				angles[]={0.054944519,0,0};
 			};
 			id=5;
 			type="ModuleCuratorSetAttributesObject_F";
@@ -16551,8 +16551,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={-54.810959,47.860817,28.324219};
-				angles[]={0.043721698,0,0};
+				position[]={-7.8972616,48.189022,21.472307};
+				angles[]={0.054944519,0,0};
 			};
 			id=6;
 			type="ModuleCuratorSetAttributesGroup_F";
@@ -16737,7 +16737,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={-54.867599,47.707607,31.826172};
+				position[]={-7.9539022,48.007374,24.97426};
 				angles[]={0.043721698,0,0};
 			};
 			id=7;
