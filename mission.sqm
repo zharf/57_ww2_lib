@@ -8,7 +8,7 @@ class EditorData
 	toggles=65;
 	class ItemIDProvider
 	{
-		nextID=492;
+		nextID=496;
 	};
 	class MarkerIDProvider
 	{
@@ -16,9 +16,9 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={15731.445,78.917282,1643.2217};
-		dir[]={0,-0.70710677,0.70710683};
-		up[]={0,0.70710677,0.70710671};
+		pos[]={12885.65,64.033157,5747.9258};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
 		aside[]={0.99999994,0,-0};
 	};
 };
@@ -18556,13 +18556,13 @@ class Mission
 		class Item22
 		{
 			dataType="Marker";
-			position[]={2800.1555,32.436035,12765.952};
+			position[]={2800.156,32.436001,12765.952};
 			name="factory";
-			text="factory";
+			text="Szydlow Farm";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=56;
-			atlOffset=-5.3039665;
+			atlOffset=-5.3040009;
 		};
 		class Item23
 		{
@@ -19223,13 +19223,13 @@ class Mission
 		class Item71
 		{
 			dataType="Marker";
-			position[]={2055.4919,66.722,6266.207};
+			position[]={2072.6196,68.603271,6326.4961};
 			name="capture_34";
 			text="Kol. Wierzbicka";
 			type="n_art";
 			colorName="ColorEAST";
 			id=204;
-			atlOffset=-1.788002;
+			atlOffset=-1.6510468;
 		};
 		class Item72
 		{
@@ -19717,209 +19717,211 @@ class Mission
 		class Item116
 		{
 			dataType="Marker";
-			position[]={1365.4597,85.274902,14988.489};
+			position[]={1392.1791,84.380859,14989.859};
 			name="factory_1";
-			text="factory";
+			text="Osowka Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=254;
-			atlOffset=-5.1059494;
+			atlOffset=-5.7491379;
 		};
 		class Item117
 		{
 			dataType="Marker";
-			position[]={10149.946,61.190243,14909.339};
+			position[]={10149.946,61.189999,14909.339};
 			name="factory_2";
-			text="factory";
+			text="Wola Osowa Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=255;
-			atlOffset=-5.2970924;
+			atlOffset=-5.2973366;
 		};
 		class Item118
 		{
 			dataType="Marker";
-			position[]={9464.7832,16.51001,12601.067};
+			position[]={9464.7832,16.51,12601.067};
 			name="factory_3";
-			text="factory";
+			text="Kurozweki Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=258;
-			atlOffset=-8.6767197;
+			atlOffset=-8.6767292;
 		};
 		class Item119
 		{
 			dataType="Marker";
-			position[]={5088.9321,60.373173,9888.7588};
+			position[]={5088.9321,60.373001,9888.7588};
 			name="factory_4";
-			text="factory";
+			text="Gacki Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=259;
-			atlOffset=-5.1140327;
+			atlOffset=-5.1142044;
 		};
 		class Item120
 		{
 			dataType="Marker";
-			position[]={909.5025,39.87896,8910.8613};
+			position[]={909.50299,39.879002,8910.8613};
 			name="factory_5";
-			text="factory";
+			text="Wola Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=260;
-			atlOffset=-5.1864662;
+			atlOffset=-5.1864319;
 		};
 		class Item121
 		{
 			dataType="Marker";
-			position[]={1698.635,66.450928,6782.5449};
+			position[]={1698.635,66.450996,6782.5449};
 			name="factory_6";
-			text="factory";
+			text="Podlesie Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=261;
-			atlOffset=-5.405014;
+			atlOffset=-5.4049454;
 		};
 		class Item122
 		{
 			dataType="Marker";
-			position[]={3876.5957,39.449921,4304.2979};
+			position[]={3876.5959,39.450001,4304.2979};
 			name="factory_7";
-			text="factory";
+			text="Gora Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=262;
-			atlOffset=-5.3289642;
+			atlOffset=-5.3288651;
 		};
 		class Item123
 		{
 			dataType="Marker";
-			position[]={6337.541,41.105686,1545.3174};
+			position[]={6245.5,41.777,1582.238};
 			name="factory_8";
-			text="factory";
+			text="Jaroslawice Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=263;
-			atlOffset=-5.3502197;
+			atlOffset=-4.867054;
 		};
 		class Item124
 		{
 			dataType="Marker";
-			position[]={11053.863,16.244629,2232.4216};
+			position[]={11053.863,16.245001,2232.4221};
 			name="factory_9";
-			text="factory";
+			text="Pacanowka Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=264;
-			atlOffset=-5.6526222;
+			atlOffset=-5.6522427;
 		};
 		class Item125
 		{
 			dataType="Marker";
-			position[]={12885.65,19.516577,5772.9258};
+			position[]={12885.65,19.517,5772.9258};
 			name="factory_10";
-			text="factory";
+			text="Stefanowek Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=265;
+			atlOffset=0.0004234314;
 		};
 		class Item126
 		{
 			dataType="Marker";
-			position[]={14796.899,42.016582,560.77637};
+			position[]={14796.9,42.016998,560.776};
 			name="factory_11";
-			text="factory";
+			text="Sichow Maly Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=266;
-			atlOffset=-5.3114662;
+			atlOffset=-5.3110504;
 		};
 		class Item127
 		{
 			dataType="Marker";
-			position[]={14080.627,42.137981,2831.5042};
+			position[]={14103.8,41.800999,2815.282};
 			name="factory_12";
-			text="factory";
+			text="Tuklecz Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=267;
-			atlOffset=-5.2248154;
+			atlOffset=-5.1026306;
 		};
 		class Item128
 		{
 			dataType="Marker";
-			position[]={9321.0215,49.657959,4357.415};
+			position[]={9321.0215,49.658001,4357.415};
 			name="factory_13";
-			text="factory";
+			text="Koniemloty Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=268;
-			atlOffset=-2.9296188;
+			atlOffset=-2.9295769;
 		};
 		class Item129
 		{
 			dataType="Marker";
-			position[]={10132.145,49.252441,7017.4277};
+			position[]={10132.145,49.251999,7017.4282};
 			name="factory_14";
-			text="factory";
+			text="Ziemblice Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=269;
-			atlOffset=-5.9250221;
+			atlOffset=-5.9254723;
 		};
 		class Item130
 		{
 			dataType="Marker";
-			position[]={12621.334,46.696033,14166.088};
+			position[]={12621.334,46.695999,14166.088};
 			name="factory_15";
-			text="factory";
+			text="Czernica Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=271;
-			atlOffset=-5.3039665;
+			atlOffset=-5.3040009;
 		};
 		class Item131
 		{
 			dataType="Marker";
-			position[]={7636.4146,68.143372,7755.4688};
+			position[]={7706.9609,64.866997,7699.729};
 			name="factory_16";
-			text="factory";
+			text="Krzywolecz Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=272;
-			atlOffset=-5.2512589;
+			atlOffset=-4.5203476;
 		};
 		class Item132
 		{
 			dataType="Marker";
-			position[]={12756.434,49.653316,10719.952};
+			position[]={12756.434,49.653,10719.952};
 			name="factory_17";
-			text="factory";
+			text="Lumber Yard";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=273;
+			atlOffset=-0.00031661987;
 		};
 		class Item133
 		{
 			dataType="Marker";
-			position[]={6102.646,69.134232,14386.085};
+			position[]={6102.646,69.134003,14386.085};
 			name="factory_18";
-			text="factory";
+			text="Korytnica Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=274;
-			atlOffset=-5.260849;
+			atlOffset=-5.2610779;
 		};
 		class Item134
 		{
 			dataType="Marker";
-			position[]={8411.0078,52.236256,10306.302};
+			position[]={8411.0078,52.236,10306.302};
 			name="factory_19";
-			text="factory";
+			text="Ponik Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=275;
-			atlOffset=-5.2889671;
+			atlOffset=-5.2892227;
 		};
 		class Item135
 		{
@@ -21610,24 +21612,24 @@ class Mission
 		class Item317
 		{
 			dataType="Marker";
-			position[]={2567.0232,56.962158,11195.548};
+			position[]={2555.376,56.962002,11096.892};
 			name="factory_20";
-			text="factory";
+			text="Szydlow Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=468;
-			atlOffset=-7.7884064;
+			atlOffset=-4.9211922;
 		};
 		class Item318
 		{
 			dataType="Marker";
-			position[]={14062.257,23.741291,8325.5469};
+			position[]={14062.257,23.740999,8325.5469};
 			name="factory_21";
-			text="factory";
+			text="Staszow Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=469;
-			atlOffset=-8.6704674;
+			atlOffset=-8.6707592;
 		};
 		class Item319
 		{
