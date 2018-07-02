@@ -18,7 +18,7 @@ Arsenal_typename = "LIB_WeaponsBox_Big_GER";									// This is the virtual arse
 Respawn_truck_typename = "LIB_ger_opelblitz_ambulance";						// This is the mobile respawn (and medical) truck. 																						Default is "B_Truck_01_medical_F".
 huron_typename = "fow_v_sdkfz_251_camo_foliage_ger_heer";						// This is Spartan 01, a multipurpose mobile respawn as a helicopter. 																	Default is "B_Heli_Transport_03_unarmed_F".
 crewman_classname = "fow_s_ger_heer_tankcrew_01_shutz";											// This defines the crew for vehicles. 																									Default is "B_crew_F".
-pilot_classname = FoW_Luftwaffe_Pilot";										// This defines the pilot for helicopters. 																								Default is "B_Helipilot_F".
+pilot_classname = "FoW_Luftwaffe_Pilot";										// This defines the pilot for helicopters. 																								Default is "B_Helipilot_F".
 KP_liberation_little_bird_classname = "B_Heli_Light_01_F"; 				// These are the little birds which spawn on the Freedom or at Chimera base.															Default is "B_Heli_Light_01_F".
 KP_liberation_boat_classname = "B_Boat_Transport_01_F"; 				// These are the boats which spawn at the stern of the Freedom.																			Default is "B_Boat_Transport_01_F".
 KP_liberation_truck_classname = "LIB_opelblitz_open_Camo";				// These are the trucks which are used in the logistic convoy system.																	Default is "B_Truck_01_transport_F".
@@ -132,7 +132,7 @@ static_vehicles = [
 	["LIB_FlaK_36_AA",200,300,0],
 	["LIB_FlaK_36",200,300,0],
 	["LIB_Nebelwerfer41_Camo",100,400,0]
-	
+];
 
 buildings = [
 	["geist_Flag_WHT_F",0,0,0],
