@@ -95,18 +95,18 @@ KP_liberation_guerilla_vests_1 = [
 ];
 
 KP_liberation_guerilla_vests_2 = [
-	""V_LIB_SOV_RA_MosinBelt",
+	"V_LIB_SOV_RA_MosinBelt",
 	"V_LIB_SOV_RA_SVTBelt",
 	"V_LIB_SOV_RA_PPShBelt",
 	"fow_v_fall_bandoleer",
 	"fow_v_heer_k98",
 	"fow_v_heer_k98_light",
 	"fow_v_heer_mp40",
-	"V_LIB_DAK_PioneerVest""
+	"V_LIB_DAK_PioneerVest"
 ];
 
 KP_liberation_guerilla_vests_3 = [
-	""V_LIB_SOV_RA_MosinBelt",
+	"V_LIB_SOV_RA_MosinBelt",
 	"V_LIB_SOV_RA_SVTBelt",
 	"V_LIB_SOV_RA_PPShBelt",
 	"fow_v_fall_bandoleer",
