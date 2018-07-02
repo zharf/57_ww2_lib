@@ -30,8 +30,6 @@ if (count GRLIB_all_fobs == 0) then {
 			_fobbox setdir getDir base_boxspawn;
 			_fobbox setposATL (getposATL base_boxspawn);	
 
-			_fobbox call F_setFobMass;
-
 			sleep 3;
 
 			waitUntil {
