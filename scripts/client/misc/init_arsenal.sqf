@@ -17,6 +17,7 @@ if (KP_liberation_arsenalUsePreset) then {
 	if (count _items == 0) then { _items = true; };
 	[liberation_arsenal, _items, false] call ace_arsenal_fnc_initBox;
 	[liberation_arsenal, blacklisted_from_arsenal] call ace_arsenal_fnc_removeVirtualItems;
+	(liberation_arsenal getVariable "ace_arsenal_virtualItems") select 2 append ["LIB_R_88m_RPzB", "LIB_1Rnd_RPzB"];
 } else {
 	[missionNamespace, true] call BIS_fnc_addVirtualWeaponCargo;
 	[missionNamespace, true] call BIS_fnc_addVirtualMagazineCargo;
