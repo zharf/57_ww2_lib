@@ -17,7 +17,8 @@ KP_liberation_medical_vehicles = [
 	"RHS_UH60M_MEV_d",
 	"RHS_UH60M_MEV2_d",
 	"UK3CB_BAF_LandRover_Amb_FFR_Green_A_MTP",
-	"UK3CB_BAF_LandRover_Amb_FFR_Sand_A_DDPM"
+	"UK3CB_BAF_LandRover_Amb_FFR_Sand_A_DDPM",
+	"LIB_ger_opelblitz_ambulance"
 ];
 
 // Classnames of ACE3 crates (which have to be in the unit preset as well).
@@ -301,6 +302,8 @@ KP_liberation_allowed_items_extension = [
 /* - Configuration settings for crates transported by vehicles.
 Format = ["classname", distance behind vehicle to unload crate, attachTo positions for each box],	*/
 box_transport_config = [
+	["LIB_opelblitz_open_Camo", -6.5, [0,0.1,0.5], [0,-1.3,0.5]],
+	["LIB_opelblitz_tentB_Camo", -6.5, [0,0.1,0.5], [0,-1.3,0.5]], 
 	["C_Offroad_01_F", -6.5, [0,-1.7,0.4]],
 	["I_G_Offroad_01_F", -6.5, [0,-1.7,0.4]],
 	["O_G_Offroad_01_F", -6.5, [0,-1.7,0.4]],
@@ -407,7 +410,8 @@ ai_resupply_sources = [
 	"rhsusf_M977A4_AMMO_BKIT_usarmy_wd",
 	"rhsusf_M977A4_AMMO_BKIT_M2_usarmy_d",
 	"rhsusf_M977A4_AMMO_BKIT_M2_usarmy_wd",
-	"rhs_gaz66_ammo_msv"
+	"rhs_gaz66_ammo_msv",
+	"LIB_OpelBlitz_Ammo"
 ];
 
 // Everything that can resupply other vehicles.
@@ -426,7 +430,8 @@ vehicle_repair_sources = [
 	"rhsusf_M977A4_REPAIR_BKIT_usarmy_wd",
 	"rhsusf_M977A4_REPAIR_BKIT_M2_usarmy_d",
 	"rhsusf_M977A4_REPAIR_BKIT_M2_usarmy_wd",
-	"RHS_Ural_Repair_VDV_01"
+	"RHS_Ural_Repair_VDV_01",
+	"LIB_OpelBlitz_Parm"
 ];
 
 vehicle_rearm_sources = [
@@ -443,7 +448,8 @@ vehicle_rearm_sources = [
 	"rhsusf_M977A4_AMMO_BKIT_usarmy_wd",
 	"rhsusf_M977A4_AMMO_BKIT_M2_usarmy_d",
 	"rhsusf_M977A4_AMMO_BKIT_M2_usarmy_wd",
-	"rhs_gaz66_ammo_msv"
+	"rhs_gaz66_ammo_msv",
+	"LIB_OpelBlitz_Ammo"
 ];
 
 vehicle_refuel_sources = [
@@ -460,7 +466,8 @@ vehicle_refuel_sources = [
 	"rhsusf_M978A4_usarmy_wd",
 	"rhsusf_M978A4_BKIT_usarmy_d",
 	"rhsusf_M978A4_BKIT_usarmy_wd",
-	"RHS_Ural_Fuel_VDV_01"
+	"RHS_Ural_Fuel_VDV_01",
+	"LIB_OpelBlitz_Fuel"
 ];
 
 // Classnames of boats, so they can be built on water.
