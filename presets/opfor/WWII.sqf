@@ -27,8 +27,8 @@ opfor_paratrooper = "LIB_SOV_VDV_soldier_00v00pRdvSvt40";				//Paratrooper
 
 // Enemy vehicles used by secondary objectives.
 opfor_mrap = "LIB_Willys_MB";											//Ifrit
-opfor_mrap_armed = "LIB_SOV_M3_Halftrack";							    //Ifrit (HMG)
-opfor_transport_helo = "O_Heli_Transport_04_bench_F";					//Mi-290 Taru (Bench)
+opfor_mrap_armed = "LIB_SdKfz251_captured";							    //Ifrit (HMG)
+//opfor_transport_helo = "O_Heli_Transport_04_bench_F";					//Mi-290 Taru (Bench)
 opfor_transport_truck = "LIB_US6_Tent";							        //Tempest Transport (Covered)
 opfor_ammobox_transport = "LIB_Zis5v";						            //Tempest Transport (Open) -> Has to be able to transport resource crates!
 opfor_fuel_truck = "LIB_Zis5v_Fuel";									//Tempest Fuel
@@ -122,9 +122,7 @@ opfor_troup_transports = [
 
 // Enemy rotary-wings that will need to spawn in flight.
 opfor_choppers = [
-	"O_Heli_Transport_04_bench_F",										//Mi-290 Taru (Bench)
-	"O_Heli_Light_02_dynamicLoadout_F",									//Po-30 Orca (Armed)
-	"O_Heli_Attack_02_dynamicLoadout_F"									//Mi-48 Kajman
+	"lib_la5_green"
 ];
 
 // Enemy fixed-wings that will need to spawn in the air.
