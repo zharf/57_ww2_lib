@@ -33,7 +33,7 @@ sleep 0.2;
 {_x doFollow leader _para_group} forEach units _para_group;
 sleep 0.2;
 
-_newvehicle flyInHeight 100;
+_newvehicle flyInHeight 300;
 
 _waypoint = _pilot_group addWaypoint [_targetpos, 25];
 _waypoint setWaypointType "MOVE";
@@ -58,6 +58,7 @@ _waypoint setWaypointType "MOVE";
 _waypoint setWaypointCompletionRadius 100;
 _pilot_group setCurrentWaypoint [_pilot_group, 1];
 
+/*
 _waypoint = _para_group addWaypoint [_targetpos, 100];
 _waypoint setWaypointType "MOVE";
 _waypoint setWaypointSpeed "NORMAL";
@@ -68,14 +69,15 @@ _waypoint = _para_group addWaypoint [_targetpos, 100];
 _waypoint setWaypointType "MOVE";
 _waypoint setWaypointCompletionRadius 50;
 _pilot_group setCurrentWaypoint [_para_group, 1];
+*/
 
-_newvehicle flyInHeight 100;
+_newvehicle flyInHeight 300;
 
 waitUntil {sleep 1;
 	!(alive _newvehicle) || (damage _newvehicle > 0.2 ) || (_newvehicle distance _targetpos < 400 )
 };
 
-_newvehicle flyInHeight 100;
+_newvehicle flyInHeight 300;
 
 {
 	unassignVehicle _x;
@@ -83,7 +85,7 @@ _newvehicle flyInHeight 100;
 	sleep 0.5;
 } forEach (units _para_group);
 
-_newvehicle flyInHeight 100;
+_newvehicle flyInHeight 300;
 
 sleep 0.2;
 while {(count (waypoints _pilot_group)) != 0} do {deleteWaypoint ((waypoints _pilot_group) select 0);};
@@ -93,7 +95,7 @@ sleep 0.2;
 {_x doFollow leader _para_group} foreach units _para_group;
 sleep 0.2;
 
-_newvehicle flyInHeight 100;
+_newvehicle flyInHeight 300;
 
 _waypoint = _pilot_group addWaypoint [_targetpos, 200];
 _waypoint setWaypointBehaviour "COMBAT";
