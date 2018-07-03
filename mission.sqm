@@ -8,7 +8,7 @@ class EditorData
 	toggles=74;
 	class ItemIDProvider
 	{
-		nextID=1710;
+		nextID=1722;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={16012.382,98.86377,682.99805};
-		dir[]={-0.13201538,-0.70710683,0.6946739};
-		up[]={-0.13201529,0.70710677,0.69467372};
-		aside[]={0.9824177,0,0.18669829};
+		pos[]={3972.7422,102.43298,3261.3574};
+		dir[]={-0.4728834,-0.36608478,-0.80148149};
+		up[]={-0.18603002,0.93057942,-0.31529889};
+		aside[]={-0.86126935,7.7532604e-008,0.50816047};
 	};
 };
 binarizationWanted=0;
@@ -15493,7 +15493,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1247;
+		items=1251;
 		class Item0
 		{
 			dataType="Marker";
@@ -40984,6 +40984,224 @@ class Mission
 					};
 				};
 				nAttributes=1;
+			};
+		};
+		class Item1247
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3442.4551,22.080614,2398.51};
+			};
+			areaSize[]={33.969002,0,25.334999};
+			flags=1;
+			id=1718;
+			type="ModuleHideTerrainObjects_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item1248
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={13910.679,47.001064,13805.349};
+			};
+			areaSize[]={33.969002,0,25.334999};
+			flags=1;
+			id=1719;
+			type="ModuleHideTerrainObjects_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item1249
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={14035.487,47.007889,13423.662};
+			};
+			areaSize[]={33.969002,0,25.334999};
+			flags=1;
+			id=1720;
+			type="ModuleHideTerrainObjects_F";
+			atlOffset=0.0014686584;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item1250
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={13454.865,30.472404,7336.7754};
+			};
+			areaSize[]={16.09388,0,14.441166};
+			flags=1;
+			id=1721;
+			type="ModuleHideTerrainObjects_F";
+			atlOffset=-0.019533157;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
 			};
 		};
 	};
