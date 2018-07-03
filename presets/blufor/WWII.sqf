@@ -180,12 +180,12 @@ buildings = [
 	["Land_WW2_Fortification_Trench_Wall",0,0,0],
 	["Land_WW2_Fortification_Trench_Wide",0,0,0],
 	["Land_WW2_Fortification_Trench_Bridge",0,0,0],
+	["Land_ClutterCutter_large_F",0,0,0],
 	["Land_BagFence_Corner_F",0,0,0],
 	["Land_BagFence_Short_F",0,0,0],
 	["Land_BagFence_End_F",0,0,0],
 	["Land_BagFence_Long_F",0,0,0],
 	["Land_BagFence_Round_F",0,0,0]
-	
 	
 ];
 
