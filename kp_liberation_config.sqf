@@ -302,6 +302,8 @@ KP_liberation_allowed_items_extension = [
 /* - Configuration settings for crates transported by vehicles.
 Format = ["classname", distance behind vehicle to unload crate, attachTo positions for each box],	*/
 box_transport_config = [
+	["LIB_SdKfz_7", -6.5, [0,-0.4,1.5], [0,-1.5,1.5], [0,-2.5,1.5]],
+	["LIB_Zis5v", -6.5, [0,-0.3,0], [0,-1.8,0]],
 	["LIB_opelblitz_open_Camo", -6.5, [0,0.1,0.5], [0,-1.3,0.5]],
 	["LIB_opelblitz_tentB_Camo", -6.5, [0,0.1,0.5], [0,-1.3,0.5]], 
 	["C_Offroad_01_F", -6.5, [0,-1.7,0.4]],
