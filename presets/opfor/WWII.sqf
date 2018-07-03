@@ -117,12 +117,14 @@ If something in this array can't hold all 8 soldiers then buggy behaviours may o
 opfor_troup_transports = [
 	"LIB_US6_Open",											           //Tempest Transport
 	"LIB_US6_Tent",												       //Tempest Transport (Covered)
-	"LIB_SdKfz251_captured"										       //MSE-3 Marid 
+	"LIB_SdKfz251_captured",										       //MSE-3 Marid 
+	"LIB_Li2"
 ];
 
 // Enemy rotary-wings that will need to spawn in flight.
 opfor_choppers = [
-	"lib_la5_green"
+	"lib_la5_green",
+	"LIB_Li2"
 ];
 
 // Enemy fixed-wings that will need to spawn in the air.
