@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=74;
+	toggles=65;
 	class ItemIDProvider
 	{
-		nextID=1724;
+		nextID=1727;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={15962.604,69.21846,654.36279};
-		dir[]={0.17149135,-0.37638462,0.91047001};
-		up[]={0.069669835,0.92646021,0.3698892};
-		aside[]={0.98273647,-8.1781764e-008,-0.1851038};
+		pos[]={16023.134,75.539261,758.94611};
+		dir[]={-0.66481107,-0.34625462,-0.66195798};
+		up[]={-0.24537711,0.93813127,-0.24432589};
+		aside[]={-0.70560437,-1.413282e-007,0.70864594};
 	};
 };
 binarizationWanted=0;
@@ -448,7 +448,10 @@ randomSeed=1578793;
 class ScenarioData
 {
 	author="Zharfenstein";
+	respawnDialog=0;
 	disabledAI=1;
+	respawn=3;
+	respawnDelay=5;
 	class Header
 	{
 		gameType="CTI";
@@ -490,7 +493,7 @@ class CustomAttributes
 										"STRING"
 									};
 								};
-								value="None";
+								value="Counter";
 							};
 						};
 					};
@@ -7261,7 +7264,7 @@ class CustomAttributes
 																"SCALAR"
 															};
 														};
-														value=2.4000001;
+														value=1.4;
 													};
 												};
 												class Item1
@@ -8971,7 +8974,7 @@ class CustomAttributes
 																"BOOL"
 															};
 														};
-														value=0;
+														value=1;
 													};
 												};
 												class Item1
@@ -36509,7 +36512,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9035.1875,64.90728,11306.935};
-				angles[]={6.2567639,3.3258483,-0};
+				angles[]={6.2567639,3.3258483,0};
 			};
 			side="Empty";
 			flags=4;
@@ -42240,17 +42243,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={15968.027,62.86499,721.84375};
-				angles[]={0,3.3271928,0};
+				position[]={15968.027,58.189255,721.84375};
+				angles[]={6.278194,3.3271928,0.0012448779};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				name="huronspawn";
 			};
 			id=1709;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=4.6757355;
 			class CustomAttributes
 			{
 				class Attribute0

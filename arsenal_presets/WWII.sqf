@@ -6,7 +6,7 @@ GRLIB_arsenal_weapons = [
 	"fow_w_mg42",
 	"fow_w_mp40",
 	"fow_w_stg44",
-	"LIB_FB42G",
+	"LIB_FG42G",
 	"LIB_G3340",
 	"LIB_G41",
 	"LIB_G43",
@@ -32,7 +32,7 @@ GRLIB_arsenal_weapons = [
 	"fow_w_pzfaust_30_klein",
 	"fow_w_pzfaust_60",
 	"LIB_Faustpatrone",
-	"LIB_Lafette_Tripod",
+	"LIB_Laffete_Tripod",
 	"LIB_PzFaust_30m",
 	"LIB_PzFaust_60m",
 	"LIB_RPzB"

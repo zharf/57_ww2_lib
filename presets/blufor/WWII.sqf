@@ -64,51 +64,51 @@ light_vehicles = [
 	["fow_v_kubelwagen_camo_ger_heer",50,0,30],                         //Kublewagen
 	["LIB_GER_KubelBeigeHood",50,0,30],                                 //Kublewagen (Covered)
 	["fow_v_kubelwagen_mg34_ger_heer",50,30,30],                        //Kublewagen (MG)
-	["LIB_SdKfz_7",100,0,30],                                           //Shit tracked truck
+	["LIB_SdKfz_7",200,0,30],                                           //Shit tracked truck
 	["LIB_opelblitz_open_Camo",100,0,50],                               //Opel truck
 	["LIB_opelblitz_tentB_Camo",100,0,50],                              //Opel truck (Covered)
-	["fow_v_sdkfz_250_camo_ger_heer",150,50,65],                        //Scout Half track
-	["Lib_ger_SdKfz251IFL_camo",175,50,65],                             //Half track 1xmg
-	["fow_v_sdkfz_251_camo_ger_heer",175,50,65],                        //Half track(FOW)1xmg
-	["Lib_ger_SdKfz251FFV_camo",175,65,65],                             //Half track 2xmg
-	["LIB_SdKfz_7_AA",100,150,50],                                      //AA truck
-	["fow_v_sdkfz_250_9_camo_ger_heer",175,100,65],                     //Half track w/Cannon
-	["fow_v_sdkfz_222_camo_ger_heer",200,100,75],                       //Scout Car
-	["fow_v_sdkfz_234_1",220,100,80],                                   //8 Wheeler Scout car
-	["LIB_SdKfz234_3",220,125,80],                                      //Stummel Scout car
-	["LIB_SdKfz234_4",220,180,80],                                      //Pak Scout car
-	["LIB_SdKfz234_2",220,200,80]                                      //Pak scout car w/Hydraulics
+	["fow_v_sdkfz_250_camo_ger_heer",250,150,115],                        //Scout Half track
+	["Lib_ger_SdKfz251IFL_camo",275,150,165],                             //Half track 1xmg
+	["fow_v_sdkfz_251_camo_ger_heer",275,150,165],                        //Half track(FOW)1xmg
+	["Lib_ger_SdKfz251FFV_camo",275,180,165],                             //Half track 2xmg
+	["LIB_SdKfz_7_AA",200,250,150],                                      //AA truck
+	["fow_v_sdkfz_250_9_camo_ger_heer",275,300,165],                     //Half track w/Cannon
+	["fow_v_sdkfz_222_camo_ger_heer",300,200,175],                       //Scout Car
+	["fow_v_sdkfz_234_1",320,300,180],                                   //8 Wheeler Scout car
+	["LIB_SdKfz234_3",320,325,180],                                      //Stummel Scout car
+	["LIB_SdKfz234_4",320,360,180],                                      //Pak Scout car
+	["LIB_SdKfz234_2",320,400,180]                                      //Pak scout car w/Hydraulics
 	
 	
 ];
 
 heavy_vehicles = [
-	["LIB_FlakPanzerIV_Wirbelwind",300,150,125],							//FlakPanzer
-	["LIB_SdKfz124_DLV",300,250,125],                                       //Wespe
-	["LIB_GER_StuG_III_G_Camo",350,300,200],                                //Stug
-	["LIB_GER_PzKpfwIV_H_Tarn",375,300,200],                                //Pz.4
-	["LIB_GER_PzKpfwV_Tarn",500,400,300],                                   //Panther
-	["fow_v_panther_camo_ger_heer",500,400,300],                            //Panther
-	["LIB_GER_PzKpfwVI_E_sPA503_Tarn",600,500,350],                         //Tiger I
-	["LIB_GER_PzKpfwVI_B_sPA505_Tarn",800,600,400]                          //Tiger II
+	["LIB_FlakPanzerIV_Wirbelwind",400,325,350],							//FlakPanzer
+	["LIB_SdKfz124_DLV",400,325,450],                                       //Wespe
+	["LIB_GER_StuG_III_G_Camo",500,400,500],                                //Stug
+	["LIB_GER_PzKpfwIV_H_Tarn",500,400,500],                                //Pz.4
+	["LIB_GER_PzKpfwV_Tarn",600,500,600],                                   //Panther
+	["fow_v_panther_camo_ger_heer",600,500,600],                            //Panther
+	["LIB_GER_PzKpfwVI_E_sPA503_Tarn",700,500,750],                         //Tiger I
+	["LIB_GER_PzKpfwVI_B_sPA505_Tarn",900,600,800]                          //Tiger II
 	
 ];
 
 air_vehicles = [
-	["FoW_Avia_Brown",500,250,350],				//Bi-Plane
-	["FoW_Bv141_Brown",400,150,300],            //Single prop scout plane
-	["FoW_W34",400,0,300],
-	["LIB_Ju52",500,0,400],
-	["FoW_Ju87_Camo_Bombs",750,400,500],
-	["FoW_Ju87_Camo_AntiTank",750,400,500],
-	["FoW_Ju87_Camo_CAS",750,400,500],
-	["LIB_FW190F8_4",700,350,450],
-	["FoW_Bf110_Brown",850,375,500],
-	["FoW_Bf110_Brown_AntiTank",850,400,500],
-	["FoW_Bf110_Brown_CAS",850,400,500],
-	["FoW_He111_Grey",800,300,500],
-	["FoW_Me262_Night",1000,500,800],
-	["FoW_Hix_Black",1250,500,1000]
+	["FoW_Avia_Brown",700,450,550],				//Bi-Plane
+	["FoW_Bv141_Brown",600,350,500],            //Single prop scout plane
+	["FoW_W34",600,0,500],
+	["LIB_Ju52",700,0,600],
+	["FoW_Ju87_Camo_Bombs",950,600,700],
+	["FoW_Ju87_Camo_AntiTank",950,600,700],
+	["FoW_Ju87_Camo_CAS",950,600,700],
+	["LIB_FW190F8_4",900,550,650],
+	["FoW_Bf110_Brown",1050,575,700],
+	["FoW_Bf110_Brown_AntiTank",1050,600,700],
+	["FoW_Bf110_Brown_CAS",1050,600,700],
+	["FoW_He111_Grey",800,700,700],
+	["FoW_Me262_Night",1200,900,1000],
+	["FoW_Hix_Black",1450,900,1200]
 ];
 
 static_vehicles = [
