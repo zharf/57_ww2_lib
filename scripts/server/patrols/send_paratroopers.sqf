@@ -24,7 +24,7 @@ while {(count (units _para_group)) < 8} do {
 	opfor_paratrooper createUnit [getmarkerpos _spawnsector, _para_group, "this addMPEventHandler [""MPKilled"", {_this spawn kill_manager}]"];
 };
 
-{removeBackpack _x; _x addBackPack "B_parachute"; _x moveInCargo _newvehicle;} forEach (units _para_group);
+{removeBackpack _x; _x addBackPack "B_parachute"; } forEach (units _para_group);
 
 while {(count (waypoints _pilot_group)) != 0} do {deleteWaypoint ((waypoints _pilot_group) select 0);};
 while {(count (waypoints _para_group)) != 0} do {deleteWaypoint ((waypoints _para_group) select 0);};
@@ -58,26 +58,16 @@ _waypoint setWaypointType "MOVE";
 _waypoint setWaypointCompletionRadius 100;
 _pilot_group setCurrentWaypoint [_pilot_group, 1];
 
-/*
-_waypoint = _para_group addWaypoint [_targetpos, 100];
-_waypoint setWaypointType "MOVE";
-_waypoint setWaypointSpeed "NORMAL";
-_waypoint setWaypointBehaviour "COMBAT";
-_waypoint setWaypointCombatMode "YELLOW";
-_waypoint setWaypointCompletionRadius 50;
-_waypoint = _para_group addWaypoint [_targetpos, 100];
-_waypoint setWaypointType "MOVE";
-_waypoint setWaypointCompletionRadius 50;
-_pilot_group setCurrentWaypoint [_para_group, 1];
-*/
-
 _newvehicle flyInHeight 300;
 
 waitUntil {sleep 1;
-	!(alive _newvehicle) || (damage _newvehicle > 0.2 ) || (_newvehicle distance _targetpos < 400 )
+	!(alive _newvehicle) || (damage _newvehicle > 0.2 ) || (_newvehicle distance _targetpos < 650 )
 };
 
 _newvehicle flyInHeight 300;
+
+{ _x assignAsCargoIndex [_newvehicle, _forEachIndex + 1]; _x moveInCargo _newvehicle; } forEach (units _para_group);
+sleep 0.5;
 
 {
 	unassignVehicle _x;
@@ -97,23 +87,13 @@ sleep 0.2;
 
 _newvehicle flyInHeight 300;
 
-_waypoint = _pilot_group addWaypoint [_targetpos, 200];
-_waypoint setWaypointBehaviour "COMBAT";
-_waypoint setWaypointCombatMode "RED";
-_waypoint setWaypointType "SAD";
-_waypoint = _pilot_group addWaypoint [_targetpos, 200];
-_waypoint setWaypointBehaviour "COMBAT";
-_waypoint setWaypointCombatMode "RED";
-_waypoint setWaypointType "SAD";
-_waypoint = _pilot_group addWaypoint [_targetpos, 200];
-_waypoint setWaypointBehaviour "COMBAT";
-_waypoint setWaypointCombatMode "RED";
-_waypoint setWaypointType "SAD";
-_waypoint = _pilot_group addWaypoint [_targetpos, 200];
-_waypoint setWaypointType "SAD";
-_waypoint = _pilot_group addWaypoint [_targetpos, 200];
-_waypoint setWaypointType "SAD";
+private _spawnpos = getMarkerPos _spawnsector;
+_waypoint = _pilot_group addWaypoint [_spawnpos, 0];
+_waypoint setWaypointBehaviour "CARELESS";
+_waypoint setWaypointCombatMode "BLUE";
+_waypoint setWaypointType "MOVE";
 _pilot_group setCurrentWaypoint [_pilot_group, 1];
+
 _waypoint = _para_group addWaypoint [_targetpos, 100];
 _waypoint setWaypointType "SAD";
 _waypoint = _para_group addWaypoint [_targetpos, 100];
@@ -125,3 +105,11 @@ _waypoint setWaypointType "SAD";
 _waypoint = _para_group addWaypoint [_targetpos, 100];
 _waypoint setWaypointType "SAD";
 _pilot_group setCurrentWaypoint [_para_group, 1];
+
+waitUntil {
+	sleep 1;
+	!(alive _newvehicle) || (_newvehicle distance _spawnpos < 800)
+};
+
+{ _newvehicle deleteVehicleCrew _x; } forEach crew _newvehicle;
+deleteVehicle _newvehicle;
