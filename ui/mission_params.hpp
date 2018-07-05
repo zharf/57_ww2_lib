@@ -178,7 +178,7 @@ class Params
 		title = $STR_PARAMS_FATIGUE;
 		values[] = { 0, 1 };
 		texts[] = { $STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED };
-		default = 1;
+		default = 0;
 	};
 	class ArsenalUsePreset {
 		title = $STR_PARAMS_ARSENALUSEPRESET;
@@ -202,7 +202,7 @@ class Params
 		title = $STR_PARAM_RESPAWN_COOLDOWN;
 		values[] = {0, 300, 600, 900, 1200, 1800, 3600};
 		texts[] = {$STR_PARAMS_DISABLED, 5, 10, 15, 20, 30, 60};
-		default = 900;
+		default = 300;
 	};
 	class MobileArsenal {
 		title = $STR_PARAMS_MOBILEARSENAL;
@@ -262,7 +262,7 @@ class Params
 		title = $STR_CLEANUP_PARAM;
 		values[] = { 0,1,2,4 };
 		texts[] = { $STR_PARAMS_DISABLED, $STR_CLEANUP_PARAM1, $STR_CLEANUP_PARAM2, $STR_CLEANUP_PARAM3 };
-		default = 2;
+		default = 4;
 	};
 	class Introduction {
 		title = $STR_PARAMS_INTRO;
