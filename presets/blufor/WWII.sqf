@@ -197,7 +197,6 @@ support_vehicles = [
 	[KP_liberation_large_storage_building,0,0,0],
 	[KP_liberation_recycle_building,250,0,0],
 	[KP_liberation_air_vehicle_building,1000,0,0],
-	[KP_liberation_heli_slot_building,250,0,0],
 	[KP_liberation_plane_slot_building,500,0,0],
 	["ACE_medicalSupplyCrate_advanced",50,0,0],
 	["ACE_Box_82mm_Mo_HE",50,40,0],
