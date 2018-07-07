@@ -58,7 +58,6 @@ waitUntil {sleep 1;
 _newvehicle flyInHeight _flyHeight;
 
 if (alive _newvehicle) then {
-	systemChat "spawn jumpers";
 	private _para_group = createGroup [GRLIB_side_enemy, true];
 	private _leader = _para_group createUnit [opfor_paratrooper, getmarkerpos _spawnsector, [], 100, "NONE"];
 	_leader addMPEventHandler ["MPKilled", {_this spawn kill_manager}];
