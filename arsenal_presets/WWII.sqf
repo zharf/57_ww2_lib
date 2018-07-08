@@ -1987,7 +1987,6 @@ GRLIB_arsenal_backpacks = [
 	"LIB_GER_Gloves1",
 	"LIB_Headwrap",
 	"LIB_Headwrap_gloves",
-	"N_LIB_GER_Glass_Bikers",
 	"LIB_GER_Headset",
 
 	"fow_g_glasses1",
