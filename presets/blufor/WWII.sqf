@@ -199,9 +199,9 @@ support_vehicles = [
 	[KP_liberation_air_vehicle_building,1000,0,0],
 	[KP_liberation_plane_slot_building,500,0,0],
 	["ACE_medicalSupplyCrate_advanced",50,0,0],
-	["ACE_Box_82mm_Mo_HE",50,40,0],
-	["ACE_Box_82mm_Mo_Smoke",50,10,0],
-	["ACE_Box_82mm_Mo_Illum",50,10,0],
+	["LIB_Box_81mm_Mo_HE",05,25,0],
+	["LIB_Box_82mm_Mo_Smoke",05,10,0],
+	["LIB_Box_81mm_Mo_Illum",05,10,0],
 	["ACE_Wheel",10,0,0],
 	["ACE_Track",10,0,0],
 	["LIB_OpelBlitz_Parm",325,0,75],									//HEMTT Repair
