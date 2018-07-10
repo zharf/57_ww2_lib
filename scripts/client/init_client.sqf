@@ -98,7 +98,6 @@ KP_liberation_aircraftWithPylons = (_filter configClasses (configFile >> "CfgVeh
                 // find the vehicle we want to add support for
                 private _rearmVehicles = count (nearestObjects [_target, ["LIB_OpelBlitz_Ammo"], ace_pylons_searchDistance + 10]);
 
-                systemChat format ["already supported %1, vehicles %2", _alreadySupported, _rearmVehicles];
                 (_alreadySupported <= 0 && _rearmVehicles > 0 && {[ace_player, _target] call ace_pylons_fnc_canConfigurePylons})
             }
         ] call ace_interact_menu_fnc_createAction;
