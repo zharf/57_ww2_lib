@@ -334,7 +334,10 @@ while { true } do {
 					case "Flag_White_F": {_vehicle setFlagTexture "res\kpflag.jpg";};
 					case KP_liberation_small_storage_building;
 					case KP_liberation_large_storage_building: {_vehicle setVariable ["KP_liberation_storage_type", 0, true];};
-					case "fow_v_truppenfahrrad_ger_heer": { KP_liberation_cr_vehicles append [_vehicle]; };
+					case "fow_v_truppenfahrrad_ger_heer": {
+						KP_liberation_cr_vehicles append [_vehicle];
+						publicVariable "KP_liberation_cr_vehicles";
+					};
 					default {};
 				};
 
