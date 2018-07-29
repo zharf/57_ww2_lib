@@ -32,7 +32,6 @@ if ( dorepackage > 0 ) then {
 
 	if ( dorepackage == 1 ) then {
 		_fobbox = FOB_box_typename createVehicle _spawnpos;
-		_fobbox call F_setFobMass;
 	};
 
 	if ( dorepackage == 2 ) then {
