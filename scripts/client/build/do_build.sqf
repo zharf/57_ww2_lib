@@ -327,14 +327,16 @@ while { true } do {
 				};
 
 				switch (_classname) do {
-					case FOB_box_typename: {_vehicle call F_setFobMass;};
 					case "Land_Medevac_house_V1_F";
 					case "Land_Medevac_HQ_V1_F": {_vehicle setVariable ["ace_medical_isMedicalFacility", true, true];};
 					case KP_liberation_recycle_building: {_vehicle setVariable ["ace_isRepairFacility", 1, true];};
 					case "Flag_White_F": {_vehicle setFlagTexture "res\kpflag.jpg";};
 					case KP_liberation_small_storage_building;
 					case KP_liberation_large_storage_building: {_vehicle setVariable ["KP_liberation_storage_type", 0, true];};
-					case "fow_v_truppenfahrrad_ger_heer": { KP_liberation_cr_vehicles append [_vehicle]; };
+					case "fow_v_truppenfahrrad_ger_heer": {
+						KP_liberation_cr_vehicles append [_vehicle];
+						publicVariable "KP_liberation_cr_vehicles";
+					};
 					default {};
 				};
 
